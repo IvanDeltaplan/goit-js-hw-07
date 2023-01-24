@@ -28,10 +28,10 @@ function onClick(event) {
 }
 galleryGrid.insertAdjacentHTML("beforeend", galleryStr);
 
-let gallery = new SimpleLightbox(".gallery a");
-gallery.on("show.simplelightbox", function () {
-  // Do something…
-});
+// let gallery = new SimpleLightbox(".gallery a");
+// gallery.on("show.simplelightbox", function () {
+//   // Do something…
+// });
 
 new SimpleLightbox(".gallery a", {
   captionsData: "alt",
